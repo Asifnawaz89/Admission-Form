@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Admission Form</title>
+</head>
+<body>
+    <form >
+    <h1> <u> Admission Form </u></h1>
+   
+     
+    
+        <p> First Name:
+        <input type="text" name="First Name" placeholder="Enter Your Name" required></p>
+        <p> Last Name:
+            <input type="text" name="Last Namw" placeholder="Enter Your Name" required>
+        </p>
+        <p>
+            Father's Name:
+            <input type="text" name="Father Name" placeholder="Father Name" required>
+        </p>
+        <p>
+            Gender
+            <input type="radio" value="M" name="gender">Male
+            <input type="radio" value="F" name="gender">FeMale </p>
+            <p>
+                Date Of Birth:
+                <input type="date" value="Date of Birth">
+            </p>
+        <p>
+            Age 
+            <input type="Number"  min="18" max="50">
+            
+        </p>
+        
+        <p>
+            Mobile Number:
+            <input type="tel" placeholder="0300 1122334" pattern="[0-9]{11}" required>
+        </p>
+        
+        
+        
+           
+            <p>
+                 CNIC N0:
+                <input type="tel" placeholder="42401-5372083-5" pattern="[0-9]{5}-[0-9]{7}-[0-9]{1}" required>
+            </p>
+            <p>
+                Father Phone:
+                <input type="tel" placeholder="0300 1122334" pattern="[0-9]{11}" required>
+            </p>
+            <p>
+                Email:
+                <input type="email" placeholder="Enter Your Email" required> </p>
+            <p>
+                Qualification:
+                <select name="" id="">
+                    <option selected 
+                    Disabled="" > Select </option>
+                    <option value="Select">Matric </option>
+                    <option value="Select">BA  </option>
+                    <option value="Select">Bcom </option>
+                    <option value="Select">MA </option>
+                </select>
+
+            </p>
+        Adress:
+        <br>
+        <textarea name="adress" maxlength="100"  required></textarea>
+            
+        
+            
+    </fieldset><br>
+    <input type="submit" value="submit">
+
+</body> </form>
+</html>
